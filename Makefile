@@ -27,6 +27,7 @@ $(EXEC): $(OBJS)
 clean:
 	find . -name '*.o' -delete
 	find . -name '*.out' -delete
+	find . -name '*.bin' -delete
 	find . -name '*.dSYM' -exec rm -rf {} +
 	rm -rf $(EXEC)
 
