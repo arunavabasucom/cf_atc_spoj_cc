@@ -9,7 +9,7 @@ Generally $10^9+7$ is used for the mod calculation
 2. **MMI** $\colon 1\to M$ prime numbers
 
 
-$$
+```math
 0 \to 0 \\
 1 \to 1 \\
 2 \to 10 \\
@@ -18,11 +18,11 @@ $$
 5 \to 101 \\
 \vdots \\
 7 \to 111
-$$
+```
 
 if we can take a look every **odd** number's last bit $1$ and even number has last bit $0$
 
-$$
+```math
 \begin{array}{|c|c|c|c|}
 \hline
 A & B & \text{AND}(\And) & \text{OR}(|) & \text{XOR} \\
@@ -38,6 +38,6 @@ A & B & \text{AND}(\And) & \text{OR}(|) & \text{XOR} \\
     1. left shift << 
 }\\
 \text{    
-    2. right shift >>
+    1. right shift >>
 }
-$$
+```
