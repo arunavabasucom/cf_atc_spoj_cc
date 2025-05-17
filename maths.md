@@ -5,7 +5,7 @@
 4. $\ \frac{a}{b} \bmod m = a \cdot b^{-1} \bmod m$
 
 Generally $10^9+7$ is used for the mod calculation 
-1. $10^9+7$ it is very close to a $\bold{INT}$ so the is not going to overflow . we can store in $\bold{INT}$ 
+1. $10^9+7$ it is very close to a $\textbf{INT}$ so the is not going to overflow . we can store in $\bold{INT}$ 
 2. **MMI** $\colon 1\to M$ prime numbers
 
 
