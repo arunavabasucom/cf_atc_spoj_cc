@@ -4,7 +4,7 @@ CXXFLAGS = -Wall -Wno-attributes -std=c++14 -Iheaders
 
 #Source files
 # SRCS =  $(wildcard utils/*.cpp) bst/predecessor_and_successor.cpp
-SRCS ?= 32B.cpp
+SRCS ?= prac/bitma_02.cpp
 # Object files (automatically generated from .cpp files)
 OBJS = $(SRCS:.cpp=.o)
 

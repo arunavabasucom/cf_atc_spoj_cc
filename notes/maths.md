@@ -41,3 +41,11 @@ A & B & \text{AND}(\And) & \text{OR}(|) & \text{XOR} \\
     1. right shift >>
 }
 ```
+$n$ is the number of bits so we can have a max number to be $2^n-1$;
+$int$ is $32$ bits so the max number we can store is $2^{32}-1$
+
+$signed(2^{31}-1)$ numbers has one bit reserved for $+$ $-$ and $unsigned(2^{32}-1)$ can only store the $+$ numbers 
+
+set bit $1$ and unset bit $0$ 
+
+$1(MSB)0111011(LSB)$
