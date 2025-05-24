@@ -1,10 +1,10 @@
 #Compiler and compiler flags
 CXX = g++-14
-CXXFLAGS = -Wall -Wno-attributes -std=c++14 -Iheaders
+CXXFLAGS = -Wall -Wno-attributes -std=c++14 -Iinclude
 
 #Source files
 # SRCS =  $(wildcard utils/*.cpp) bst/predecessor_and_successor.cpp
-SRCS ?= prac/bitma_02.cpp
+SRCS = ${file}
 # Object files (automatically generated from .cpp files)
 OBJS = $(SRCS:.cpp=.o)
 

@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int main(){
     int N, K;
     unsigned __int128 s=1, lim=1;
